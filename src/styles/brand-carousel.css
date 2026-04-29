@@ -1,0 +1,279 @@
+.brand-carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 2rem 0;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+}
+
+.brand-carousel-track {
+  display: flex;
+  width: fit-content;
+  animation: scroll 60s linear infinite;
+  will-change: transform;
+  pointer-events: none;
+}
+
+.brand-carousel-track-reverse {
+  display: flex;
+  width: fit-content;
+  animation: scrollReverse 60s linear infinite;
+  will-change: transform;
+  pointer-events: none;
+}
+
+.brand-carousel-set {
+  display: flex;
+  gap: 4rem;
+  padding: 0 2rem;
+  align-items: center;
+}
+
+.brand-logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+  height: 100px;
+  padding: 1rem;
+  pointer-events: none;
+}
+
+.brand-logo-item.brand-logo-with-text {
+  min-width: 280px;
+  gap: 1rem;
+}
+
+.brand-logo-img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1) opacity(0.6);
+  pointer-events: none;
+}
+
+.brand-logo-img.openai-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-img.kling-logo {
+  filter: brightness(1) invert(0) opacity(0.6);
+}
+
+.brand-logo-img.midjourney-logo {
+  filter: opacity(0.8);
+  max-width: 60px;
+  flex-shrink: 0;
+}
+
+.brand-logo-img.elevenlabs-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-img.google-ai-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-img.claude-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-img.deepseek-logo {
+  filter: brightness(1) invert(0) opacity(0.7);
+  min-height: 50px;
+}
+
+.brand-logo-img.deepmind-logo {
+  filter: opacity(0.8);
+  min-height: 50px;
+}
+
+.brand-logo-img.make-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-img.gemini-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-img.hailuo-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-img.grok-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-img.leonardo-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-img.copilot-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-img.n8n-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-img.openart-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-img.perplexity-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-img.retell-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-img.zapier-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-img.runway-logo {
+  filter: opacity(0.8);
+}
+
+.brand-logo-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.5rem;
+  font-weight: 700;
+  white-space: nowrap;
+  pointer-events: none;
+  letter-spacing: -0.02em;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.333%);
+  }
+}
+
+@keyframes scrollReverse {
+  0% {
+    transform: translateX(-33.333%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 1024px) {
+  .brand-carousel-set {
+    gap: 3rem;
+  }
+
+  .brand-logo-item {
+    min-width: 180px;
+    height: 85px;
+  }
+
+  .brand-logo-item.brand-logo-with-text {
+    min-width: 240px;
+  }
+
+  .brand-logo-text {
+    font-size: 1.25rem;
+  }
+
+  .brand-logo-img.midjourney-logo {
+    max-width: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .brand-carousel-set {
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+
+  .brand-logo-item {
+    min-width: 160px;
+    height: 75px;
+  }
+
+  .brand-logo-item.brand-logo-with-text {
+    min-width: 200px;
+  }
+
+  .brand-logo-text {
+    font-size: 1.125rem;
+  }
+
+  .brand-logo-img.midjourney-logo {
+    max-width: 45px;
+  }
+
+  .brand-carousel-track {
+    animation-duration: 45s;
+  }
+
+  .brand-carousel-track-reverse {
+    animation-duration: 45s;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand-carousel-set {
+    gap: 1.5rem;
+  }
+
+  .brand-logo-item {
+    min-width: 140px;
+    height: 65px;
+    padding: 0.5rem;
+  }
+
+  .brand-logo-item.brand-logo-with-text {
+    min-width: 180px;
+  }
+
+  .brand-logo-text {
+    font-size: 1rem;
+  }
+
+  .brand-logo-img.midjourney-logo {
+    max-width: 40px;
+  }
+
+  .brand-carousel-track {
+    animation-duration: 36s;
+  }
+
+  .brand-carousel-track-reverse {
+    animation-duration: 36s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brand-carousel-track,
+  .brand-carousel-track-reverse {
+    animation: none;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .brand-logo-item {
+    scroll-snap-align: center;
+  }
+}

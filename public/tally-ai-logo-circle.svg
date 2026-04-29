@@ -1,0 +1,32 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="256" fill="black"/>
+  <circle cx="256" cy="256" r="252" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+  
+  <!-- Bot Icon -->
+  <path d="M256 140C229.49 140 208 161.49 208 188V236C208 262.51 229.49 284 256 284C282.51 284 304 262.51 304 236V188C304 161.49 282.51 140 256 140ZM256 164C269.25 164 280 174.75 280 188H232C232 174.75 242.75 164 256 164ZM280 236C280 249.25 269.25 260 256 260C242.75 260 232 249.25 232 236V212H280V236Z" fill="white"/>
+  
+  <!-- Antenna -->
+  <path d="M256 116V92" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="256" cy="80" r="16" fill="white"/>
+  
+  <!-- Arms -->
+  <path d="M184 212H160C146.75 212 136 222.75 136 236C136 249.25 146.75 260 160 260H184" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M328 212H352C365.25 212 376 222.75 376 236C376 249.25 365.25 260 352 260H328" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Text -->
+  <path d="M172 340H340" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M172 372H340" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M172 404H260" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Gradient Overlay -->
+  <circle cx="256" cy="256" r="240" fill="url(#paint0_linear)" fill-opacity="0.2"/>
+  
+  <!-- Definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="128" y1="96" x2="384" y2="416" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

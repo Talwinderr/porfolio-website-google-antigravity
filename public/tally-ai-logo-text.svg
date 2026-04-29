@@ -1,0 +1,49 @@
+<svg width="800" height="256" viewBox="0 0 800 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="256" rx="32" fill="black"/>
+  
+  <!-- Bot Icon -->
+  <path d="M128 64C101.49 64 80 85.49 80 112V160C80 186.51 101.49 208 128 208C154.51 208 176 186.51 176 160V112C176 85.49 154.51 64 128 64ZM128 88C141.25 88 152 98.75 152 112H104C104 98.75 114.75 88 128 88ZM152 160C152 173.25 141.25 184 128 184C114.75 184 104 173.25 104 160V136H152V160Z" fill="white"/>
+  
+  <!-- Antenna -->
+  <path d="M128 40V16" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="128" cy="8" r="8" fill="white"/>
+  
+  <!-- Arms -->
+  <path d="M56 136H32C18.75 136 8 146.75 8 160C8 173.25 18.75 184 32 184H56" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M200 136H224C237.25 136 248 146.75 248 160C248 173.25 237.25 184 224 184H200" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Text: TALLY.AI -->
+  <path d="M300 80H380" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M340 80V176" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  
+  <path d="M400 80H480" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M400 128H480" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M400 176H480" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  
+  <path d="M500 80V176" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M500 80H580" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M500 176H580" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  
+  <path d="M600 80V176" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M600 80H680" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M600 176H680" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  
+  <circle cx="720" cy="80" r="12" fill="white"/>
+  
+  <path d="M700 128H740" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  
+  <path d="M700 176V128" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <path d="M740 176V128" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Gradient Overlay -->
+  <rect width="800" height="256" rx="32" fill="url(#paint0_linear)" fill-opacity="0.2"/>
+  
+  <!-- Definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="200" y1="32" x2="600" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
